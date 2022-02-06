@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Ubuntu+Mono&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    background: url('img/gym.jpg');  
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    font-family:'Baloo Bhaijaan 2', cursive;
+}
+
+.desig{
+    display:block;
+}
+.c1{
+    border-top: 10px solid green;
+    width: 33.33%;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    margin-right: 2px;
+
+}
+
+.c2{
+    border-top: 10px solid red;
+    width: 33.33%;
+    position:absolute;
+    top: 0px;
+    left: 33.3%;
+    margin: 0 2px o 2px;
+}
+
+.c3{
+    border-top: 10px solid yellow;
+    width: 33.33%;
+    position:absolute;
+    top: 0px;
+    right:0px;
+    margin-left: 2px;
+}
+
+
+.nav{
+    display:block;
+}
+
+.logo{
+    /* border: 2px solid red; */
+    position:absolute;
+    top: 12px;
+    left: 5px;
+}
+
+.logo img{
+    display:block;
+    filter:invert(100%);
+    width: 70px;
+    height: 50px;
+    padding: 0px;
+    margin: 0 auto;
+    
+}
+.logo p{
+    text-align: center;
+    padding:0px 8px;
+
+}
+
+.menu{
+    /* border: 2px solid red; */
+    width: 33%;
+    margin: 25px auto;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a:hover{
+    color: red
+}
+.menu a:active{
+    color: green;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin:12px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.but{
+    /* border: 2px solid red; */
+    position:absolute;
+    top: 12px;
+    right: 2px;
+}
+
+.btn{
+    border: 2px solid grey;
+    width:80px;
+    font-family:'Baloo Bhaijaan 2', cursive;
+    background-color:black;
+    color:white;
+    border-radius:5px;
+    margin: 10px;
+    padding: 2px;
+}
+
+.btn:hover{
+    background-color:rgb(66, 65, 65);
+}
+
+.btn:active{
+    background-color:yellowgreen;
+}
+
+.container{
+    border:3px solid white;
+    width:40%;
+    margin: 100px 120px;
+    padding: 5px;
+    margin-top: 150px;
+    text-align: center;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.container input{
+    border:2px solid white;
+    display: block;
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    
+}
+
+.container #dd{
+    margin-top: 22px;
+}
+
+.ff{
+    width: 100%;
+    font-size: 12px;
+}
+.ff div {
+    border-top: 2px solid red;
+    color: black;
+    background-color:white;
+    width: 100%;
+}
+
+
+.ff h3
+{
+    margin:0;
+    padding: 2px;
+}
+.ff p{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.ff .t1{
+    width: 33.33%;
+    text-align: left;
+    margin-left: 2px;
+}
+
+
+
+.ff .t2{ 
+    width: 30%;
+    text-align: center;
+}
+
+ .ff .t3{
+     width: 30%;
+     text-align: right;
+} 
